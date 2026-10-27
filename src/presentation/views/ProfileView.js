@@ -432,7 +432,7 @@ export class ProfileView extends IComponent {
           </section>
 
           <!-- Reward & Penukaran Saldo Section (Di atas Keamanan Akun & Di Bawah Rekening) -->
-          <section class="flex flex-col gap-2">
+          <section class="hidden" style="display: none;">
             <div class="flex items-center justify-between px-1">
               <h3 class="font-headline-md text-xs font-bold text-text-heading uppercase tracking-wider flex items-center gap-1.5">
                 <span>Penukaran Saldo & Hadiah</span>
